@@ -8,7 +8,6 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-This is the Starter-Project project, which is intended to be a core learning asset for the students
-who have enroled the Design and Testing subject of the Software Engineering curriculum of the 
-University of Sevilla.  This project provides a template our students can use to get their projects 
-up and running very quickly.
+This is the Acme-Incubator project, which is intended to be a SpringBoot project for the students
+who have enrolled the Design and Testing subject of the Software Engineering curriculum of the 
+University of Sevilla.This project is destinated for the September evaluation.

@@ -29,6 +29,18 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `pazosbulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `contact` varchar(255),
+        `experience` bit,
+        `food_handler` bit,
+        `moment` datetime(6),
+        `text` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `provider` (
        `id` integer not null,
         `version` integer not null,

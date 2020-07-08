@@ -20,6 +20,7 @@
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.nico" action="https://github.com/nicpazsar"/>
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.administrator" access="hasRole('Administrator')">
@@ -35,6 +36,17 @@
 		<acme:menu-option code="master.menu.consumer" access="hasRole('Consumer')">
 			<acme:menu-suboption code="master.menu.consumer.favourite-link" action="http://www.example.com/"/>
 		</acme:menu-option>
+		
+		
+	<acme:menu-option code="master.menu.bulletin.bulletins" access="isAnonymous()">
+		<acme:menu-suboption code="master.menu.bulletin.pazos.create" action="/anonymous/pazosbulletin/create"/> 
+	  	<acme:menu-suboption code="master.menu.bulletin.pazos.list" action="/anonymous/pazosbulletin/list"/>
+	  	<acme:menu-separator/>
+	  </acme:menu-option>
+		
+		
+		
+		
 	</acme:menu-left>
 
 	<acme:menu-right>

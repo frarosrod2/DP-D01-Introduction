@@ -50,6 +50,16 @@
         primary key (`id`)
     ) engine=InnoDB;
 
+    create table `rosabulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `description` varchar(255),
+        `moment` datetime(6),
+        `title` varchar(255),
+        primary key (`id`)
+    ) engine=InnoDB;
+
     create table `user_account` (
        `id` integer not null,
         `version` integer not null,

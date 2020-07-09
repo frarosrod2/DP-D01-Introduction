@@ -1,9 +1,9 @@
-anonymous.pazosbulletin.form.label.author = Autor:
-anonymous.pazosbulletin.form.label.text = Texto:
-anonymous.pazosbulletin.form.label.foodHandler = Manipulador de Alimentos:
-anonymous.pazosbulletin.form.label.experience = Experiencia:
-anonymous.pazosbulletin.form.label.contact = Contacto:
-anonymous.pazosbulletin.form.button.create = Boletin
+anonymous.pazosbulletin.form.label.author = Autor
+anonymous.pazosbulletin.form.label.text = Texto
+anonymous.pazosbulletin.form.label.foodHandler = Manipulador de Alimentos
+anonymous.pazosbulletin.form.label.experience = Experiencia
+anonymous.pazosbulletin.form.label.contact = Contacto
+anonymous.pazosbulletin.form.button.create = Create
 anonymous.pazosbulletin.form.button.return = Volver
 
 anonymous.pazosbulletin.list.label.moment = Momento

@@ -4,9 +4,9 @@
 <%@taglib prefix="acme" tagdir="/WEB-INF/tags"%>
 
 <acme:form>
-	<acme:form-textbox code="anonymous.pazosbulletin.form.label.author" path="author"/>
-	<acme:form-textarea code="anonymous.pazosbulletin.form.label.text" path="text"/>
-	<acme:form-textarea code="anonymous.pazosbulletin.form.label.contact" path="contact"/>
+	<acme:form-textbox code="anonymous.pazosbulletin.form.label.author" path="author" placeholder="Jim H"/>
+	<acme:form-textarea code="anonymous.pazosbulletin.form.label.text" path="text" placeholder="FH no exp"/>
+	<acme:form-textarea code="anonymous.pazosbulletin.form.label.contact" path="contact" placeholder="jim@email.com"/>
 	<acme:form-checkbox code="anonymous.pazosbulletin.form.label.foodHandler" path="foodHandler"/>
 	<acme:form-checkbox code="anonymous.pazosbulletin.form.label.experience" path="experience"/>
 	<acme:form-submit code="anonymous.pazosbulletin.form.button.create" action="/anonymous/pazosbulletin/create"/>

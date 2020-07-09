@@ -29,7 +29,7 @@ master.menu.sign-out = Salir
 # master.menu.anonymous #######################################################
 
 master.menu.anonymous = Anónimo
-master.menu.anonymous.favourite-link = Enlace favorito
+master.menu.anonymous.favourite-link.paco = Enlace favorito de Paco
 master.menu.anonymous.favourite-link.nico = Enlace favorito de Nico
 
 # master.menu.administrator ###################################################
@@ -62,6 +62,8 @@ master.menu.user-account.become-consumer = Hazte consumidor
 master.menu.bulletin.bulletins = Boletines
 master.menu.bulletin.pazos.create = Crear boletin Pazos
 master.menu.bulletin.pazos.list = Listar boletines Pazos
+master.menu.bulletin.rosa.create = Crear boletin Rosa
+master.menu.bulletin.rosa.list = Listar boletines Rosa
 
 ﻿# master.footer ###############################################################
 

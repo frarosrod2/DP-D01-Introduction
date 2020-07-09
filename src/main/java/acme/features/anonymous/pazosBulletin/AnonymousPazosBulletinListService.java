@@ -1,22 +1,22 @@
 
-package acme.features.anonymous.pazosbulletin;
+package acme.features.anonymous.pazosBulletin;
 
 import java.util.Collection;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.pazosbulletin.Pazosbulletin;
+import acme.entities.bulletin.Pazosbulletin;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
 import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractListService;
 
 @Service
-public class AnonymousBulletinListService implements AbstractListService<Anonymous, Pazosbulletin> {
+public class AnonymousPazosBulletinListService implements AbstractListService<Anonymous, Pazosbulletin> {
 
 	@Autowired
-	AnonymousBulletinRepository repository;
+	AnonymousPazosBulletinRepository repository;
 
 
 	@Override

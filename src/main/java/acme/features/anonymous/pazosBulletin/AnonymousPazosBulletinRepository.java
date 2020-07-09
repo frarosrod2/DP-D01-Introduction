@@ -1,16 +1,16 @@
 
-package acme.features.anonymous.pazosbulletin;
+package acme.features.anonymous.pazosBulletin;
 
 import java.util.Collection;
 
 import org.springframework.data.jpa.repository.Query;
 import org.springframework.stereotype.Repository;
 
-import acme.entities.pazosbulletin.Pazosbulletin;
+import acme.entities.bulletin.Pazosbulletin;
 import acme.framework.repositories.AbstractRepository;
 
 @Repository
-public interface AnonymousBulletinRepository extends AbstractRepository {
+public interface AnonymousPazosBulletinRepository extends AbstractRepository {
 
 	@Query("select p from Pazosbulletin p")
 	Collection<Pazosbulletin> findMany();

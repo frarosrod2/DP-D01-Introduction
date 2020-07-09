@@ -19,7 +19,7 @@
 <acme:menu-bar code="master.menu.home">
 	<acme:menu-left>
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
-			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
+			<acme:menu-suboption code="master.menu.anonymous.favourite-link.paco" action="https://ev.us.es"/>
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link.nico" action="https://github.com/nicpazsar"/>
 		</acme:menu-option>
 
@@ -41,6 +41,8 @@
 	<acme:menu-option code="master.menu.bulletin.bulletins" access="isAnonymous()">
 		<acme:menu-suboption code="master.menu.bulletin.pazos.create" action="/anonymous/pazosbulletin/create"/> 
 	  	<acme:menu-suboption code="master.menu.bulletin.pazos.list" action="/anonymous/pazosbulletin/list"/>
+	  	<acme:menu-suboption code="master.menu.bulletin.rosa.create" action="/anonymous/rosabulletin/create"/> 
+	  	<acme:menu-suboption code="master.menu.bulletin.rosa.list" action="/anonymous/rosabulletin/list"/>
 	  	<acme:menu-separator/>
 	  </acme:menu-option>
 		

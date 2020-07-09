@@ -1,12 +1,12 @@
 
-package acme.features.anonymous.pazosbulletin;
+package acme.features.anonymous.pazosBulletin;
 
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.pazosbulletin.Pazosbulletin;
+import acme.entities.bulletin.Pazosbulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -14,10 +14,10 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousBulletinCreateService implements AbstractCreateService<Anonymous, Pazosbulletin> {
+public class AnonymousPazosBulletinCreateService implements AbstractCreateService<Anonymous, Pazosbulletin> {
 
 	@Autowired
-	AnonymousBulletinRepository repository;
+	AnonymousPazosBulletinRepository repository;
 
 
 	@Override
@@ -54,12 +54,7 @@ public class AnonymousBulletinCreateService implements AbstractCreateService<Ano
 		moment = new Date(System.currentTimeMillis() - 1);
 
 		result = new Pazosbulletin();
-		result.setAuthor("Jim H");
-		result.setText("FH no exp");
 		result.setMoment(moment);
-		result.setFoodHandler(true);
-		result.setExperience(false);
-		result.setContact("jim@email.com");
 
 		return result;
 	}

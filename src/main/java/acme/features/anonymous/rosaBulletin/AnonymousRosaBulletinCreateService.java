@@ -6,7 +6,7 @@ import java.util.Date;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import acme.entities.bulletin.Rosabulletin;
+import acme.entities.bulletin.RosaBulletin;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -14,20 +14,20 @@ import acme.framework.entities.Anonymous;
 import acme.framework.services.AbstractCreateService;
 
 @Service
-public class AnonymousRosaBulletinCreateService implements AbstractCreateService<Anonymous, Rosabulletin> {
+public class AnonymousRosaBulletinCreateService implements AbstractCreateService<Anonymous, RosaBulletin> {
 
 	@Autowired
 	AnonymousRosaBulletinRepository repository;
 
 
 	@Override
-	public boolean authorise(final Request<Rosabulletin> request) {
+	public boolean authorise(final Request<RosaBulletin> request) {
 		assert request != null;
 		return true;
 	}
 
 	@Override
-	public void bind(final Request<Rosabulletin> request, final Rosabulletin entity, final Errors errors) {
+	public void bind(final Request<RosaBulletin> request, final RosaBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -36,7 +36,7 @@ public class AnonymousRosaBulletinCreateService implements AbstractCreateService
 	}
 
 	@Override
-	public void unbind(final Request<Rosabulletin> request, final Rosabulletin entity, final Model model) {
+	public void unbind(final Request<RosaBulletin> request, final RosaBulletin entity, final Model model) {
 		assert request != null;
 		assert entity != null;
 		assert model != null;
@@ -45,22 +45,22 @@ public class AnonymousRosaBulletinCreateService implements AbstractCreateService
 	}
 
 	@Override
-	public Rosabulletin instantiate(final Request<Rosabulletin> request) {
+	public RosaBulletin instantiate(final Request<RosaBulletin> request) {
 		assert request != null;
 
-		Rosabulletin result;
+		RosaBulletin result;
 		Date moment;
 
 		moment = new Date(System.currentTimeMillis() - 1);
 
-		result = new Rosabulletin();
+		result = new RosaBulletin();
 		result.setMoment(moment);
 
 		return result;
 	}
 
 	@Override
-	public void validate(final Request<Rosabulletin> request, final Rosabulletin entity, final Errors errors) {
+	public void validate(final Request<RosaBulletin> request, final RosaBulletin entity, final Errors errors) {
 		assert request != null;
 		assert entity != null;
 		assert errors != null;
@@ -68,7 +68,7 @@ public class AnonymousRosaBulletinCreateService implements AbstractCreateService
 	}
 
 	@Override
-	public void create(final Request<Rosabulletin> request, final Rosabulletin entity) {
+	public void create(final Request<RosaBulletin> request, final RosaBulletin entity) {
 		assert request != null;
 		assert entity != null;
 

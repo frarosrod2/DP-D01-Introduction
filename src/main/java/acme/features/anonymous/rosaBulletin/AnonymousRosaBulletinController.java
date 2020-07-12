@@ -7,14 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.bulletin.Rosabulletin;
+import acme.entities.bulletin.RosaBulletin;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/rosabulletin/")
-public class AnonymousRosaBulletinController extends AbstractController<Anonymous, Rosabulletin> {
+@RequestMapping("/anonymous/rosa-bulletin/")
+public class AnonymousRosaBulletinController extends AbstractController<Anonymous, RosaBulletin> {
 
 	@Autowired
 	private AnonymousRosaBulletinListService	listService;

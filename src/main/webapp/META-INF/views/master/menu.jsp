@@ -39,10 +39,10 @@
 		
 		
 	<acme:menu-option code="master.menu.bulletin.bulletins" access="isAnonymous()">
-		<acme:menu-suboption code="master.menu.bulletin.pazos.create" action="/anonymous/pazosbulletin/create"/> 
-	  	<acme:menu-suboption code="master.menu.bulletin.pazos.list" action="/anonymous/pazosbulletin/list"/>
-	  	<acme:menu-suboption code="master.menu.bulletin.rosa.create" action="/anonymous/rosabulletin/create"/> 
-	  	<acme:menu-suboption code="master.menu.bulletin.rosa.list" action="/anonymous/rosabulletin/list"/>
+		<acme:menu-suboption code="master.menu.bulletin.pazos.create" action="/anonymous/pazos-bulletin/create"/> 
+	  	<acme:menu-suboption code="master.menu.bulletin.pazos.list" action="/anonymous/pazos-bulletin/list"/>
+	  	<acme:menu-suboption code="master.menu.bulletin.rosa.create" action="/anonymous/rosa-bulletin/create"/> 
+	  	<acme:menu-suboption code="master.menu.bulletin.rosa.list" action="/anonymous/rosa-bulletin/list"/>
 	  	<acme:menu-separator/>
 	  </acme:menu-option>
 		

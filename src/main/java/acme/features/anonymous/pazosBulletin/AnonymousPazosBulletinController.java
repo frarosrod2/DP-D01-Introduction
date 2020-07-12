@@ -7,14 +7,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import acme.entities.bulletin.Pazosbulletin;
+import acme.entities.bulletin.PazosBulletin;
 import acme.framework.components.BasicCommand;
 import acme.framework.controllers.AbstractController;
 import acme.framework.entities.Anonymous;
 
 @Controller
-@RequestMapping("/anonymous/pazosbulletin/")
-public class AnonymousPazosBulletinController extends AbstractController<Anonymous, Pazosbulletin> {
+@RequestMapping("/anonymous/pazos-bulletin/")
+public class AnonymousPazosBulletinController extends AbstractController<Anonymous, PazosBulletin> {
 
 	@Autowired
 	private AnonymousPazosBulletinListService	listService;

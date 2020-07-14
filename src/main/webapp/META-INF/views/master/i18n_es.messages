@@ -31,6 +31,7 @@ master.menu.sign-out = Salir
 master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link.paco = Enlace favorito de Paco
 master.menu.anonymous.favourite-link.nico = Enlace favorito de Nico
+master.menu.anonymous.favourite-link.alberto = Enlace favorito de Alberto
 
 # master.menu.administrator ###################################################
 
@@ -64,6 +65,8 @@ master.menu.bulletin.pazos.create = Crear boletin Pazos
 master.menu.bulletin.pazos.list = Listar boletines Pazos
 master.menu.bulletin.rosa.create = Crear boletin Rosa
 master.menu.bulletin.rosa.list = Listar boletines Rosa
+master.menu.bulletin.murillo.create = Crear boletin Murillo
+master.menu.bulletin.murillo.list = Listar boletines Murillo
 
 ﻿# master.footer ###############################################################
 

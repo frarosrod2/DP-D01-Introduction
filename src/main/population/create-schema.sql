@@ -29,7 +29,19 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `pazosbulletin` (
+    create table `murillo_bulletin` (
+       `id` integer not null,
+        `version` integer not null,
+        `author` varchar(255),
+        `moment` datetime(6),
+        `number` integer,
+        `text` varchar(255),
+        `title` varchar(255),
+        `volumen` integer,
+        primary key (`id`)
+    ) engine=InnoDB;
+
+    create table `pazos_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `author` varchar(255),
@@ -50,7 +62,7 @@
         primary key (`id`)
     ) engine=InnoDB;
 
-    create table `rosabulletin` (
+    create table `rosa_bulletin` (
        `id` integer not null,
         `version` integer not null,
         `author` varchar(255),

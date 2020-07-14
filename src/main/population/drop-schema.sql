@@ -27,11 +27,13 @@
 
     drop table if exists `consumer`;
 
-    drop table if exists `pazosbulletin`;
+    drop table if exists `murillo_bulletin`;
+
+    drop table if exists `pazos_bulletin`;
 
     drop table if exists `provider`;
 
-    drop table if exists `rosabulletin`;
+    drop table if exists `rosa_bulletin`;
 
     drop table if exists `user_account`;
 
